@@ -12,6 +12,12 @@
 		00433F161DDD554E001A41FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00433F141DDD554E001A41FE /* Main.storyboard */; };
 		00433F181DDD554E001A41FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00433F171DDD554E001A41FE /* Assets.xcassets */; };
 		00433F1B1DDD554E001A41FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00433F191DDD554E001A41FE /* LaunchScreen.storyboard */; };
+		00433F231DDD55BB001A41FE /* RunLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00433F221DDD55BB001A41FE /* RunLoopView.swift */; };
+		00433F251DDD7893001A41FE /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00433F241DDD7893001A41FE /* 01.jpg */; };
+		00433F2A1DDD7B03001A41FE /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00433F261DDD7B03001A41FE /* 02.jpg */; };
+		00433F2B1DDD7B03001A41FE /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00433F271DDD7B03001A41FE /* 03.jpg */; };
+		00433F2C1DDD7B03001A41FE /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00433F281DDD7B03001A41FE /* 04.jpg */; };
+		00433F2D1DDD7B03001A41FE /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00433F291DDD7B03001A41FE /* 05.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		00433F171DDD554E001A41FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00433F1A1DDD554E001A41FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00433F1C1DDD554E001A41FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00433F221DDD55BB001A41FE /* RunLoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunLoopView.swift; sourceTree = "<group>"; };
+		00433F241DDD7893001A41FE /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		00433F261DDD7B03001A41FE /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		00433F271DDD7B03001A41FE /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		00433F281DDD7B03001A41FE /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		00433F291DDD7B03001A41FE /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		00433F0F1DDD554E001A41FE /* Swift-RunLoopView */ = {
 			isa = PBXGroup;
 			children = (
+				00433F241DDD7893001A41FE /* 01.jpg */,
+				00433F261DDD7B03001A41FE /* 02.jpg */,
+				00433F271DDD7B03001A41FE /* 03.jpg */,
+				00433F281DDD7B03001A41FE /* 04.jpg */,
+				00433F291DDD7B03001A41FE /* 05.jpg */,
 				00433F101DDD554E001A41FE /* AppDelegate.swift */,
 				00433F121DDD554E001A41FE /* ViewController.swift */,
+				00433F221DDD55BB001A41FE /* RunLoopView.swift */,
 				00433F141DDD554E001A41FE /* Main.storyboard */,
 				00433F171DDD554E001A41FE /* Assets.xcassets */,
 				00433F191DDD554E001A41FE /* LaunchScreen.storyboard */,
@@ -122,8 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00433F2B1DDD7B03001A41FE /* 03.jpg in Resources */,
+				00433F2A1DDD7B03001A41FE /* 02.jpg in Resources */,
+				00433F2D1DDD7B03001A41FE /* 05.jpg in Resources */,
 				00433F1B1DDD554E001A41FE /* LaunchScreen.storyboard in Resources */,
 				00433F181DDD554E001A41FE /* Assets.xcassets in Resources */,
+				00433F2C1DDD7B03001A41FE /* 04.jpg in Resources */,
+				00433F251DDD7893001A41FE /* 01.jpg in Resources */,
 				00433F161DDD554E001A41FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00433F131DDD554E001A41FE /* ViewController.swift in Sources */,
+				00433F231DDD55BB001A41FE /* RunLoopView.swift in Sources */,
 				00433F111DDD554E001A41FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Swift-RunLoopView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "latter.Swift-RunLoopView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Swift-RunLoopView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "latter.Swift-RunLoopView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
